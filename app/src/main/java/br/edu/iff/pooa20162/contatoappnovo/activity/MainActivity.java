@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
     }
 
     public void chamaTelaContatos(View v){
-        Toast.makeText(this,"",Toast.LENGTH_SHORT);
+        Intent intent = new Intent(MainActivity.this, ContatoActivity.class);
+        startActivity(intent);
     }
 }
