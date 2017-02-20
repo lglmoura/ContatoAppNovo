@@ -3,7 +3,7 @@
     package="br.edu.iff.pooa20162.contatoappnovo">
 
     <application
-        
+
         android:name="com.orm.SugarApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

@@ -7,7 +7,7 @@ import com.orm.SugarRecord;
  * Created by aluno on 20/02/17.
  */
 
-public class Contato {
+public class Contato extends SugarRecord {
 
     private String nome;
     private String email;
