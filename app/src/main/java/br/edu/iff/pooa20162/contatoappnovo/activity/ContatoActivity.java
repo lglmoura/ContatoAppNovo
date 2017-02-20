@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import br.edu.iff.pooa20162.contatoappnovo.R;
+import br.edu.iff.pooa20162.contatoappnovo.model.Contato;
 
 public class ContatoActivity extends Activity {
     EditText nome, email, telefone;
@@ -33,6 +34,9 @@ public class ContatoActivity extends Activity {
         nome = (EditText) findViewById(R.id.etNomeContato);
         email = (EditText) findViewById(R.id.etEmailContato);
         telefone = (EditText) findViewById(R.id.etTelefoneContato);
+
+        Contato contato = new Contato(nome.getText().toString(),email.getText().toString(),telefone.getText().toString());
+        contato.save();
 
 
 

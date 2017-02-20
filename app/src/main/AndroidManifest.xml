@@ -3,7 +3,6 @@
     package="br.edu.iff.pooa20162.contatoappnovo">
 
     <application
-
         android:name="com.orm.SugarApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +11,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="DATABASE"
-            android:value="contato.db" />
+            android:value="contatonovo.db" />
         <meta-data
             android:name="VERSION"
             android:value="1" />
@@ -30,7 +29,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.ContatoActivity"></activity>
+        <activity android:name=".activity.ContatoActivity" />
+        <activity
+            android:name=".activity.ContatoListaActivity"
+            android:label="@string/title_activity_contato_lista"></activity>
     </application>
 
 </manifest>
