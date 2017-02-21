@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
     }
 
     public void chamaTelaContatos(View v){
-        Intent intent = new Intent(MainActivity.this, ContatoActivity.class);
+        Intent intent = new Intent(MainActivity.this, ContatoListaActivity.class);
         startActivity(intent);
     }
 }
